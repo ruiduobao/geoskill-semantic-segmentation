@@ -1,0 +1,13 @@
+name: geoskill-semantic-segmentation
+display_name: 语义分割
+description: |
+  逐像元sklearn随机森林分类+滑窗拼接+后处理，输出分类栅格（离线numpy等价实现）
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-semantic-segmentation.py
+runtime: python>=3.9
+tags:
+  - gis
+  - machine-learning
+  - raster
+  - remote-sensing
